@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YoungSerif';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    font-family: Outfit;
+    background-color: rgb(241, 227, 211)
+}
+
+h1 {
+    color: rgb(48, 48, 48);
+    font-weight: lighter;
+}
+
+.title {
+    font-family: YoungSerif;
+}
+
+.indent {
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+.preparation-list {
+    list-style-position: outside;
+}
+
+.preparation-list li {
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.preparation-list li::marker {
+    color: rgb(114, 14, 60)
+}
+
+.ingredients-list {
+    list-style-position: outside;
+}
+
+.ingredients-list li {
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.ingredients-list li::marker {
+    color: rgb(114, 14, 60)
+}
+
+.container {
+    background: white;
+    max-width: 640px;
+    width: 50%;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 100px auto 0 auto;
+    overflow: hidden;
+    color: rgb(109, 103, 100);
+}
+
+.omelette-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    filter: contrast(1.1) saturate(1.3) sepia(0.1);
+}
+
+.small-header {
+    font-size: larger;
+    color: rgb(139, 38, 85)
+}
+
+.main-header {
+    font-family: YoungSerif;
+    font-weight: normal;
+    font-size: xx-large;
+    color: rgb(121, 57, 45)
+}
+
+.instruction-list {
+    list-style-type: outside;
+}
+
+.instruction-list li::marker {
+    font-family: Outfit;
+    color: rgb(121, 57, 45);
+    font-weight: bold;
+}
+
+.instruction-list li {
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.nutrition-table {
+    width: 90%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.nutrition-table td {
+    padding: 8px 30px;
+    border-bottom: 1px solid rgba(48, 48, 48, 0.192);
+}
+
+.nutrition-table td:nth-child(2) {
+    color: rgb(121, 57, 45);
+    font-weight: bold;
+}
+
+.padding-1 {
+    padding: 1rem 0;
+}
